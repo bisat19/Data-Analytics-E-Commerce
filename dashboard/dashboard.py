@@ -10,7 +10,7 @@ import plotly.express as px
 # Load dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv("all_data.csv", parse_dates=["order_purchase_timestamp"])
+    df = pd.read_csv("dashboard/all_data.csv", parse_dates=["order_purchase_timestamp"])
     df["year"] = df["order_purchase_timestamp"].dt.year  
     return df
 
