@@ -23,7 +23,7 @@ Ikuti langkah-langkah ini untuk mengaktifkan dan menjalankan proyek di komputer 
    Clone repository dengan git:
 
    ```bash
-    link nanti
+    [link nanti](https://github.com/bisat19/Data-Analytics-E-Commerce)
    ```
 
 2. **Set up virtual environment** (Optional)
